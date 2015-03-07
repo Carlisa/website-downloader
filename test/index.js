@@ -3,7 +3,8 @@ var WDownloader = require("../lib");
 
 // Download Google index page
 var google = new WDownloader({
-    routes: ["/"]
+    routes: ["/"],
+    domain: "http://localhost:9000"
 });
 
 google.download(__dirname + "/google", function (err) {
