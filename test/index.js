@@ -1,5 +1,5 @@
 // Dependencies
-var WDownloader = require("wdownloader");
+var WDownloader = require("../lib");
 
 // Download Google index page
 var google = new WDownloader({
