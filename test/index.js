@@ -7,6 +7,6 @@ var google = new WDownloader({
     domain: "http://localhost:9000"
 });
 
-google.download(__dirname + "/google", function (err) {
+google.download(__dirname + "/localhost", function (err) {
     console.log(err || "Downloaded Google.com");
 });
